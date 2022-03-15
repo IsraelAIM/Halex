@@ -2,7 +2,8 @@
     <string name="app_name">Halex</string>
     <string name="textTitulo">Bienvenido a Halex</string>
     <string name="textIngresar">Ingrese usuario y contraseña para disfrutar de la experiencia</string>
-    <string name="textUsuario">Usuario</string>
-    <string name="textPassword">Contraseña</string>
+    <string name="textUsuario">Escriba su nombre de usuario</string>
+    <string name="textPassword">Escriba su contraseña</string>
+    <string name="textPass">Ocho caracteres</string>
 
 </resources>
