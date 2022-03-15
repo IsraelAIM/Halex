@@ -6,4 +6,7 @@
     <string name="textPassword">Escriba su contraseña</string>
     <string name="textPass">Ocho caracteres</string>
 
+    <string name="txtTitulo">Halo Combat Evolved</string>
+    <string name="txtApartado">Historia</string>
+
 </resources>

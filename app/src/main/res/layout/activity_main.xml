@@ -32,7 +32,7 @@
         app:srcCompat="@drawable/q1" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/txtPassw"
         android:layout_width="242dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
@@ -52,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/txtUser"
         android:layout_width="246dp"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
@@ -89,7 +89,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/txtUser" />
 
     <Button
         android:id="@+id/btnEntrar"
@@ -100,6 +100,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.293"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPassw" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
