@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Halex</string>
+    <string name="textTitulo">Bienvenido a Halex</string>
+    <string name="textIngresar">Ingrese usuario y contraseña para disfrutar de la experiencia</string>
+    <string name="textUsuario">Usuario</string>
+    <string name="textPassword">Contraseña</string>
+
+</resources>
