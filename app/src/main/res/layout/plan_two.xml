@@ -16,6 +16,7 @@
             android:id="@+id/imagen"
             android:layout_width="wrap_content"
             android:layout_height="190dp"
+            android:layout_marginTop="23dp"
             android:baselineAlignBottom="false"
             android:contentDescription="TODO"
             android:scaleType="centerCrop"
@@ -25,11 +26,12 @@
             android:id="@+id/nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
             android:includeFontPadding="false"
+            android:paddingTop="10dp"
+            android:paddingBottom="25dp"
             android:text="@string/textTitulo"
             android:textAlignment="center"
-            android:textSize="24sp" />
+            android:textSize="20sp" />
 
     </LinearLayout>
 </LinearLayout>

@@ -19,11 +19,16 @@ class Universo : AppCompatActivity() {
         entregas.add(Entrega("Halo 5",R.drawable.halo5))
         entregas.add(Entrega("Halo Infinite",R.drawable.halo5inf))
 
+        entregas.add(Entrega("Halo 3:ODST",R.drawable.haloodst))
+        entregas.add(Entrega("Halo Wars I",R.drawable.wars1))
+        entregas.add(Entrega("Halo Wars II",R.drawable.wars2))
+        entregas.add(Entrega("Halo Reach",R.drawable.halore))
+
         val lista=findViewById<GridView>(R.id.columnas)
         val adaptador=AdaptusGrid(this,entregas)
         lista.adapter=adaptador
         lista.onItemClickListener= AdapterView.OnItemClickListener { parent, view, position, id ->
-            Toast.makeText(this,entregas.get(position).nombre, Toast.LENGTH_SHORT).show()
+
         }
     }
 }
