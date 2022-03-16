@@ -6,4 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".Universo">
 
+    <GridView
+        android:id="@+id/columnas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:numColumns="2" />
 </LinearLayout>
