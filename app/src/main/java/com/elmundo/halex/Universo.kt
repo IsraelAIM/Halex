@@ -1,5 +1,6 @@
 package com.elmundo.halex
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.AdapterView
@@ -28,7 +29,8 @@ class Universo : AppCompatActivity() {
         val adaptador=AdaptusGrid(this,entregas)
         lista.adapter=adaptador
         lista.onItemClickListener= AdapterView.OnItemClickListener { parent, view, position, id ->
-
+            val intent= Intent(this,Titulos::class.java)
+            startActivity(intent)
         }
     }
 }

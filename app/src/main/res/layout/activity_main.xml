@@ -33,7 +33,7 @@
 
     <EditText
         android:id="@+id/txtPassw"
-        android:layout_width="242dp"
+        android:layout_width="350dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:background="#A81E1C1C"
@@ -43,6 +43,7 @@
         android:minHeight="48dp"
         android:outlineAmbientShadowColor="@color/white"
         android:outlineSpotShadowColor="@color/white"
+        android:paddingLeft="10dp"
         android:shadowColor="@color/white"
         android:textColor="@color/white"
         android:textColorHint="#90FFFFFF"
@@ -53,7 +54,7 @@
 
     <EditText
         android:id="@+id/txtUser"
-        android:layout_width="246dp"
+        android:layout_width="350dp"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:background="#A81E1C1C"
@@ -61,6 +62,7 @@
         android:hint="@string/textUsuario"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:paddingLeft="10dp"
         android:textColor="@color/white"
         android:textColorHint="#90FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"

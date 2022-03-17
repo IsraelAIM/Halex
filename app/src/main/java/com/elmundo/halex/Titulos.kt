@@ -20,7 +20,7 @@ class Titulos : AppCompatActivity() {
         val adaptador=AdaptusList(this,apartados)
         lista.adapter=adaptador
         lista.onItemClickListener= AdapterView.OnItemClickListener { parent, view, position, id ->
-            val intent= Intent(this,Titulos::class.java)
+            val intent= Intent(this,Detalles::class.java)
             startActivity(intent)
         }
     }
