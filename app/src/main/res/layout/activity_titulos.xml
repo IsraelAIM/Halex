@@ -10,5 +10,6 @@
     <ListView
         android:id="@+id/listado"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:background="#A81E1C1C" />
 </LinearLayout>

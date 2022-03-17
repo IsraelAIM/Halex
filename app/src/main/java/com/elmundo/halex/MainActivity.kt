@@ -5,8 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
-
-
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,8 +14,6 @@ class MainActivity : AppCompatActivity() {
         val pass:EditText;
         user=findViewById(R.id.txtUser);
         pass=findViewById(R.id.txtPassw);
-
-
         entrada.setOnClickListener(View.OnClickListener {
             var usuario=user.getText().toString()
             var contraseña=pass.getText().toString()
@@ -31,8 +27,22 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this, "Datos incorrectos",Toast.LENGTH_SHORT).show()
                 }
             }
-
-
         })
+        //Fin
+    }//fin
+    //Se detiene por un momento
+    override fun onPause() {
+        super.onPause()
+    }
+    //Cuando no se ve la pantalla
+    override fun onStop() {
+        super.onStop()
+    }
+    //Cuando si se ve la pantalla
+    override fun onResume() {
+        super.onResume()
+    }
+    override fun onDestroy() {
+        super.onDestroy()
     }
 }
