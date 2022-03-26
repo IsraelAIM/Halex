@@ -5,11 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo8"
+    android:orientation="vertical"
     tools:context=".Titulos">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_700"
+        android:elevation="4dp"
+        android:textAlignment="center"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="@color/white"
+        tools:ignore="MissingConstraints" />
 
     <ListView
         android:id="@+id/listado"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#A81E1C1C" />
+        android:background="#A81E1C1C">
+
+
+    </ListView>
 </LinearLayout>

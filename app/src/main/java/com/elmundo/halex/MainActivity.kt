@@ -10,10 +10,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val entrada=findViewById<Button>(R.id.btnEntrar)
+        //Aqui estan los doss
         val user:EditText;
         val pass:EditText;
         user=findViewById(R.id.txtUser);
         pass=findViewById(R.id.txtPassw);
+
         entrada.setOnClickListener(View.OnClickListener {
             var usuario=user.getText().toString()
             var contraseña=pass.getText().toString()
@@ -28,21 +30,5 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         })
-        //Fin
-    }//fin
-    //Se detiene por un momento
-    override fun onPause() {
-        super.onPause()
-    }
-    //Cuando no se ve la pantalla
-    override fun onStop() {
-        super.onStop()
-    }
-    //Cuando si se ve la pantalla
-    override fun onResume() {
-        super.onResume()
-    }
-    override fun onDestroy() {
-        super.onDestroy()
     }
 }
